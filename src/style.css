@@ -6,7 +6,7 @@ p {
 .bodyform {
   display: flex;
   width: 100%;
-  background-color: rgb(128, 128, 241);
+  background-color: rgb(192, 192, 194);
 }
 .part {
   width: 50%;
@@ -14,7 +14,7 @@ p {
   padding: 2rem;
 }
 .contactform {
-  background-color: aliceblue;
+  background-color: rgb(208, 243, 236);
   margin: 2rem;
   display: flex;
   align-items: center;
@@ -47,6 +47,7 @@ form label {
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
+  font-weight: bold;
 }
 form input {
   padding: 1rem;
@@ -68,4 +69,5 @@ button {
 .signIn{
   margin: 2rem;
   text-align: center;
+
 }

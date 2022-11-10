@@ -1,23 +1,27 @@
-import React from 'react';
+import React,{useContext} from 'react';
+import Context from '../context/Context';
+import Context from '../context/Context'
  import ContactForm from './component/ContactForm'
 function ContactForm() {
+  const value=useContext(Context)
+  console.log (value)
   return (
     <div className="bodyform">
     <div className="part contactform">
       <div className = 'formContent'>
-      <div style={{textAlign:'center', marginBottom:12}}>
+      <div style={{textAlign:'center', marginBottom:12, }}>
       Sleeknote
       </div>
       <h1 style={{textAlign:'center', marginBottom:12}}> Welcome Back</h1>
      <button > log whith Google</button>
-      <hr /> OR LOGIN WITH EMAIL
+      <hr/> OR LOGIN WITH EMAIL
       <div>
         <form action="">
           <div>
           <label htmlFor="">
-            Email Adress
+            Email Address
           </label>
-          <input type="text" placeholder="Email Adress" />
+          <input type="text" placeholder="Email Address" />
           </div>
          <div>
          <label htmlFor="">
