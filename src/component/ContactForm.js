@@ -4,11 +4,11 @@ function ContactForm() {
   return (
     <div className="bodyform">
     <div className="part contactform">
-      <div>
+      <div style={{textAlign:'center', marginBottom:12}}>
       Sleeknote
       </div>
-      <h1> Welcome Back</h1>
-      <input type="text" placeholder=" login with Google" />
+      <h1 style={{textAlign:'center', marginBottom:12}}> Welcome Back</h1>
+     <button > log whith Google</button>
       <hr /> OK LOGIN WITH EMAIL
       <div>
         <form action="">
@@ -26,11 +26,14 @@ function ContactForm() {
          </div>
         
         </form>
-        <label>
-            <input type="checkbox" />
+      <div className="check">
+       <label htmlFor="">
+       <input type="checkbox" />
             keep me logged in
+       </label>
             <a href=""> forget your passeword?</a>
-          </label>
+        
+      </div>
         
         <button onclick="submit()">Log in</button>
         <p>
@@ -57,7 +60,7 @@ function ContactForm() {
           bienvenur dans sleenote academy <br /> veuillez renseigner vos
           information pour vous connecter a notre site{' '}
         </p>
-        <button onclick="submit()">START ACADEMY</button>
+        <button className onclick="submit()">START ACADEMY</button>
       </div>
     </div>
   </div>
