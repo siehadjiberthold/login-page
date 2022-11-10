@@ -4,12 +4,13 @@ function ContactForm() {
   return (
     <div className="bodyform">
     <div className="part contactform">
+      <div className = 'formContent'>
       <div style={{textAlign:'center', marginBottom:12}}>
       Sleeknote
       </div>
       <h1 style={{textAlign:'center', marginBottom:12}}> Welcome Back</h1>
      <button > log whith Google</button>
-      <hr /> OK LOGIN WITH EMAIL
+      <hr /> OR LOGIN WITH EMAIL
       <div>
         <form action="">
           <div>
@@ -35,11 +36,12 @@ function ContactForm() {
         
       </div>
         
-        <button onclick="submit()">Log in</button>
-        <p>
+        <button   style={{ backgroundColor:' rgb(128, 128, 241)' }} onclick="submit()">Log in</button>
+        <p className="signIn">
           Don't have an account?
           <a href=""> sign in</a>
         </p>
+      </div>
       </div>
     </div>
 
@@ -60,7 +62,7 @@ function ContactForm() {
           bienvenur dans sleenote academy <br /> veuillez renseigner vos
           information pour vous connecter a notre site{' '}
         </p>
-        <button className onclick="submit()">START ACADEMY</button>
+        <button className="btn" onclick="submit()">START ACADEMY</button>
       </div>
     </div>
   </div>
