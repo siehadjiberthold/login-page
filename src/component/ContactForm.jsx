@@ -55,7 +55,9 @@ function ContactForm() {
             </div>
 
             <button
-              onClick={() => dispatch({ type: 'CONNEXION' })}
+              onClick={() => dispatch({ type: 'CONNEXION' , payload: objet
+            
+            })}
               style={{ backgroundColor: ' rgb(128, 128, 241)' }}
             >
               Log in
