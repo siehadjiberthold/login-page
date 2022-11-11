@@ -1,5 +1,5 @@
 import React from 'react'
-export default function accuiel(){
+export default function Accuiel(){
   return(
     <div>
       Bonjour 

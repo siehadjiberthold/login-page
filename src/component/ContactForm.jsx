@@ -7,6 +7,11 @@ function ContactForm() {
 
   const [value1, setValue1] = useState('');
   const [value2, setValue2] = useState('');
+
+  const objet ={
+    mail:value1,
+    password: value2
+  }
   console.log(etat);
   return (
     <div className="bodyform">
