@@ -11,5 +11,5 @@ export default function Accuiel() {
     }
   }, []);
   console.log(storage);
-  return <div>Bonjour {storage.email}</div>;
+  return <div>Bonjour </div>;
 }

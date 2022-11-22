@@ -52,7 +52,7 @@ form label {
 form input {
   padding: 1rem;
   width: 100%;
-  outline-color: rgb(128, 128, 241);
+  outline-color: rgb(128, 128, 241); 
 }
 .check {
   display: flex;
