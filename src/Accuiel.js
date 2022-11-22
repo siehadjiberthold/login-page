@@ -11,5 +11,10 @@ export default function Accuiel() {
     }
   }, []);
   console.log(storage);
-  return <div>Bonjour </div>;
+  return (
+    <div>
+      {' '}
+      <h1> COUPE DU MONDE QATAR  2022</h1>{' '}
+    </div>
+  );
 }
